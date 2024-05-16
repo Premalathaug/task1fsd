@@ -1,1 +1,10 @@
-"http difference" 
+Difference between http1.1 vs http2
+
+
+HTTP stands for hypertext transfer protocol, and it is the basis for almost all web applications. HTTP is the method computers and servers use to request and send information.
+
+The first version of HTTP was called HTTP/1.1. This version is still in use on the web. A new version of HTTP called HTTP/2 was created in2015.
+
+
+HTTP/1.1HTTP/2It works on the textual format.It works on the binary protocol.There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.It allows multiplexing so one TCP connection is required for multiple requests.It uses requests resource Inlining for use getting multiple pagesIt uses PUSH frame by server that collects all multiple pages It compresses data by itself.It uses HPACK for data compression.
+
